@@ -1,0 +1,45 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: 'Questrial', sans-serif; /* Declare the base font-family */
+  text-align: left;
+  background-color: #deedcb;
+
+}
+
+nav ul li a {display: flex; 
+    padding: .8em 2%; 
+    text-decoration: none; 
+    color: rgba(255,255,255,0.8); 
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover {background-color: rgba(255,255,255,0.3);}
+
+nav ul li a.active {background-color: rgba(0,0,0,0.1);}
+
+nav {background-color: #953250; font-size: 14px;}
+/*----Clearfix: Force an element to collapse ----*/
+
+nav button { background-color: transparent; 
+            border: none; font-size: 25px; display:flex; flex-direction: column;
+            color: white;}
+
+nav ul {list-style-type: none; padding: 0 0 0 60px; margin: 0; text-decoration: none;  
+        
+}
+nav ul.hide {display: none;}
+nav ul.groupA {display: none; position: relative; clear: both;}
+nav ul li {margin: 0; }
+nav ul li a:hover{}
+
+
+
+
+
+footer {margin: 10%  0 0 0; padding: 5vw 0 3vw 0; background-color: cadetblue; font-size: 12px; font-family: 'Rubik Mono One', sans-serif;}
+.clearfix:after { content: ""; display: table; clear: both;}
