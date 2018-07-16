@@ -1,3 +1,3 @@
-function toggleMenu(){   
-    document.getElementById("menuNav").classList.toggle("hide");
+function toggleMenu(){
+    document.getElementById("dropdown").classList.toggle("hide");
 }

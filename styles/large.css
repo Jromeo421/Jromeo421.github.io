@@ -1,21 +1,21 @@
 @media only screen and (min-width: 64rem) { 
 
     
-nav {  
-background: #ffd051; /* Old browsers */
-background: -moz-linear-gradient(top, #ffd051 0%, #a04c24 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #ffd051 0%,#a04c24 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #ffd051 0%,#a04c24 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd051', endColorstr='#a04c24',GradientType=0 ); /* IE6-9 */}
+nav {margin: 10%  0 0 0; padding: 3vw 0 3vw 0; background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#715470+38,953250+79 */
+background-color: #715470; /* Old browsers */
+background: -moz-linear-gradient(top, #715470 38%, #953250 79%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #715470 38%,#953250 79%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #715470 38%,#953250 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Micro  width: 100%; float: none;}
+    
         
     nav button {display: none;}
     
-    nav ul {margin-left: 2%;}
+    nav ul {margin-left: 20%; width: 96%;}
     
-    nav ul.hide {display: none; }
     
-    nav ul li { display: inline-flex; }
+    nav ul li { display: grid; margin: 0 100px; 0 0;}
     
-    nav ul li a {display: block;  border-left: 1px solid rgba(0,0,0,0.3); padding: .6rem 1rem; width: 100%; margin: 0;}
+    nav ul li a {display: flex; padding: .6rem 1rem; width: 100%; margin: 0;}
     
 }
