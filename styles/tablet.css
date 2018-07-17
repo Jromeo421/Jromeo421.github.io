@@ -1,0 +1,73 @@
+@media only screen and (min-width: 35em) {
+/*-----BODY -----*/
+	body {}
+
+
+
+/*-----CONTAINER -----*/
+	#container {}
+
+
+
+/*-----HEADER -----*/
+header {text-align: center;}
+
+
+
+/*-----NAVigation -----*/
+    nav button {display: none;}
+    nav { 
+        width: 25%; 
+        float: left;
+        padding: 0;
+    }
+    nav ul {display: block;}
+    
+    nav ul li a {
+        display: block;
+        padding: .6em;
+        text-decoration: none;
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-bottom: 1px solid rgba(0,0,0,0.8);
+        color: rgba(255,255,255,0.8);
+        font-weight: 600;
+        background: #715470;
+        background: -moz-linear-gradient(top, #715470 2%, #953250 73%);
+        background: -webkit-linear-gradient(top, #715470 2%,#953250 73%);
+        background: linear-gradient(to bottom, #715470 2%,#953250 73%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715470', endColorstr='#953250',GradientType=0 );          
+    }
+    
+    nav ul li a:hover {
+        background: rgba(255,255,255,0.3);
+    }
+    
+    nav ul li.active a {color: orange;}
+    
+    /*-------------------------Submenu items----------------*/
+    nav ul li ul li {
+        padding: 0;
+        margin: 0;        
+    }
+    
+    nav ul li ul li a {
+        background: linear-gradient(to bottom, #715470 2%,#953250 73%);
+        padding: .6em;
+        padding-left: 20px;
+        font-size: .8em;
+        color: #deedcd;
+    }
+  
+/*-----CONTENT -----*/
+    #content {
+        
+        width: 75%; 
+        float: left;
+    }
+
+    
+    
+/*----- FOOTER -----*/
+    footer {float: left;}
+	
+}

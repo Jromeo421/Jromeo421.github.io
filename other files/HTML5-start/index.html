@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 
-<!-- This is the start of my The Mountain Spoke Project  -->
-<title>The Mountain Spoke</title>
+<!-- This start file was build by Paul Cheney  -->
+<title>HTML5 Start Site by Paul Cheney</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,7 +22,6 @@
 <link href="css/tablet.css" rel="stylesheet">
 <!-- enhance-desktop -->
 <link href="css/desktop.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Questrial|Rubik+Mono+One" rel="stylesheet">
 
 
 <!--[if lt IE 9]>
@@ -37,68 +36,34 @@
 	
 	<header>
     <hgroup>
-    <h1>Bikes R Us!</h1>
-    <h2>Bikes are what we do</h2>
+    <h1>Site Name</h1>
+    <h2>Tag Line</h2>
     </hgroup>
     </header>
     
     
     <!-- page navigation links here -->
-     <nav><button id="down" onclick="toggleMenu()">&#9776;</button>
-<ul class="dropdownMenu">   
-    <li ><a class="active" href="index.htm">Home</a></li>
-    <li><a class="" href="Tours.htm">Adventure Tours</a> 
-        <ul>
-            <li><a href="https://www.alltrails.com/trail/us/montana/sypes-canyon">Sypes Canyon Trail</a></li>
-            <li><a href="https://www.alltrails.com/trail/us/montana/grotto-falls-trail">Grotto Falls Trail</a></li>
-            <li><a href="https://www.alltrails.com/trail/us/montana/triple-tree-trail">Triple Tree Trail</a></li>
-        </ul></li>
-    <li><a class="" href="events.htm">Event Listings</a></li>
-    <li><a class="" href="sales.htm">Sales</a></li>
-    <li><a  class="" href="services.htm">Services</a></li>
-    <li><a class="" href="contactus.htm">Contact Us</a></li>
-</ul>
-         </nav>
+    <nav>
+    <ul>
+    	<li><a href="#">One</a></li>
+    	<li><a href="#">Two</a></li>
+    	<li><a href="#">Three</a></li>
+    </ul>
+    </nav>
     
     
     <!-- page content here -->
     <div id="content">
-    <h1>Home Page</h1>
-  <img class="mySlides w3-animate-fading" src="img_rr_01.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img_rr_02.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img_rr_03.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img_rr_04.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 9000);    
-}
-</script>
+    <h1>Page Name</h1>
+    <p>Content for this page.</p>
     </div><!-- end content -->
     
     
-    <footer class="clearfix"><div class="footerbar">  &copy;2018 Copyrights | <a href="resources.htm">Resources</a> | <a href="contactus.htm">Contact Us / MAPS</a> | <img src="images/bike_logo.png" alt="bike logo" id="bikelogo" width="40px" height="30px"> 
-        <a href="">Overview Video</a><span id="currentdate"></span><br>
-            </div>
+    <footer>
+    <p>&copy; Paul Cheney &bull; Responsive Start File</p>
     </footer>
     
     </div> <!-- end container -->
     </div> <!-- end wrapper -->
-	<script src="scripts/hamburger.js"></script>
-    <script src="scripts/currentdate.js"></script>
-    <script src="scripts/active.js"></script>
-    <script src="scripts/include.js"></script>
 </body>
 </html>
