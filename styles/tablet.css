@@ -25,7 +25,7 @@ header h1 {
     color: #f47b3f;
     }
 
-
+.bikelogo {width: 50px; height: auto; padding-left: 450px;}
 
 /*-----NAVigation -----*/
     nav button {display: none;}
