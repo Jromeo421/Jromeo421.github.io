@@ -1,114 +1,132 @@
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
 /*----------- apply a natural box layout model to all elements --------------*/
-* {box-sizing: border-box; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /*-----BODY -----*/
 body {
-	font-size: 14px;
     background-color: #deedcb;
-    text-align: left;
+    font-family: 'questrial', sans-serif;
     
 }
 
 /*-----CONTAINER -----*/
 #container {
-	background-color: #deedcd;   /*becomes the nav background color*/
-	min-width: 320px;
-	max-width: 1140px;
+	background-color: #fff;   /*becomes the nav background color*/
+    
+    
+
 }
 
 /*-----HEADER -----*/
-header h1 {text-align: center; font-family: 'Bree Serif', serif;}
-header h2 {text-align: center; font-family: 'Bree Serif', serif;}
+
+header {
+    text-align: center; 
+    font-size: 18px; 
+    text-shadow: #000; 
+    font-family: 'Bree Serif', serif; 
+    text-shadow: 4px 1px 12px #000;
+    background: linear-gradient(to bottom, #715470 2%,#953250 73%);
+}
 
 
-
+header img { width: 80px; margin: .6em .6em 0 0;}
+header h1 {font-size: 42px;
+    text-align: center; 
+    color: #f47b3f;
+    padding-top: 20px;
+}
+.subheading {text-shadow: 1px 1px 12px #f47b3f; padding-top: 2%}
 
 
 /*-----NAVigation -----*/
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #deedcb;
+}
+nav {color: rgba(255,255,255,0.2);
+    padding: .5em 0; 
+    width: 100%;
+    background-color:  background: #715470;
+    background: -moz-linear-gradient(top, #715470 2%, #953250 73%);
+    background: -webkit-linear-gradient(top, #715470 2%,#953250 73%);
+    background: linear-gradient(to bottom, #715470 2%,#953250 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715470', endColorstr='#953250',GradientType=0 ); 
+}
 
-nav button {margin: .2rem 2%; 
-            background-color: transparent; 
-            border: none; 
-            font-size: 1.6rem;  
-            color: #deedcb;
-            
-} 
 
-nav {background: #715470;
+
+nav ul {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    color: rgba(0,0,0,0.2);
+}   
+
+nav ul.hide {display:none;}
+
+nav ul li {margin: 0;}
+
+nav ul li a { 
+    
+    font-weight: 600;
+	display:block;
+    text-decoration: none;
+	background-color:  background: #715470;
     background: -moz-linear-gradient(top, #715470 2%, #953250 73%);
     background: -webkit-linear-gradient(top, #715470 2%,#953250 73%);
     background: linear-gradient(to bottom, #715470 2%,#953250 73%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715470', endColorstr='#953250',GradientType=0 );
-    font-family: 'Bree Serif', sans-serif;
-}
-nav ul {list-style-type: none; 
-        padding: 0; 
-        margin: 0;
-        font-family: 'Questrial', sans-serif;
-}
-
-nav ul li a {
-	display: block;
     padding: .8rem 2%;
-    text-decoration: none;
-    color: rgba(255,255,255,0.8);
-    border-top: 1px solid rgba(0,0,0,0.3); 
-}
-
-nav ul li a:hover  {
-    background: #deedcb; 
-    color: black;
-    font-weight: 600;
-}
-
-nav ul li a.active {
-    background: orange; 
+    border-top: 1px solid rgba(0,0,0,0.3);
     color: #000;
 }
 
-nav ul.hide {display: none;
+nav ul li.active a{
+    
+    background-color: rgba(0,0,0,0.2); 
+    color: orange;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.2); color: #deedcb;
 }
 
 
+nav ul li ul li {padding-left: 20px;}
 
-/*----Main Content area of site-----*/
+nav ul li ul li a {color: #deedcb; font-weight: 200;}
 
+nav ul li ul li a:hover {color: #f47b3f;}
+.mySlides img {border-radius: 50px 15px; width: 100%; border: 1%; padding: 20px 2%;}
 
 
 /*-----CONTENT -----*/
 #content {
-    text-align: center;
-	height: auto;
-    background-color: #deedcd; 
-    width: 100%;
-    font-family: 'questrial', sans-serif;
-    margin: 0;
-    padding: 20px; 
-}
+	min-height: 5em;
 
-.mySlides img {
-    
-    border-radius: 75px 20px; 
-    width: 100%; 
-    padding: 2%;
-    margin-bottom: 5%;
-    margin-top: 5%;
-    max-height: 400px;
 }
+#content h1 {margin-top: 30px;text-align: center;}
+.subheading {text-align: center;}
+
 
 /*----- FOOTER -----*/
-.contactinfo {text-align: center; 
-    margin: 0; 
-    padding: 10rem; 
-    width: 100%;
+footer {
+	clear: both;
+	text-align: center;
+	padding: 1em;
+    background-position: bottom;
+    background-color:background-color:  background: #715470;
+    background: -moz-linear-gradient(top, #715470 2%, #953250 73%);
+    background: -webkit-linear-gradient(top, #715470 2%,#953250 73%);
+    background: linear-gradient(to bottom, #715470 2%,#953250 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715470', endColorstr='#953250',GradientType=0 );
 }
+footer div a:hover {color: #deedcb; font-weight: 600;}
+footer img {width: 30px;}
 
-footer {width: 100%; float: left; text-align: center;
-        padding: 1em; background: #715470;
-background: -moz-linear-gradient(top, #715470 2%, #953250 73%);
-background: -webkit-linear-gradient(top, #715470 2%,#953250 73%);
-background: linear-gradient(to bottom, #715470 2%,#953250 73%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715470', endColorstr='#953250',GradientType=0 );  
-}
-
-.clearfix:after { content: ""; display: table; clear: both;}
+.clearfix:after{content: ""; display: table; clear: both;}

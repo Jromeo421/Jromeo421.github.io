@@ -9,9 +9,6 @@
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Bikes are out specialty">
-    
-    
-<!----- STYLE SHEETS ----->
 <link href="styles/reset.css" rel="stylesheet">
 <!-- phone-default -->
 <link href="styles/phone-default.css" rel="stylesheet">
@@ -19,7 +16,9 @@
 <link href="styles/tablet.css" rel="stylesheet">
 <!-- enhance-desktop -->
 <link href="styles/desktop.css" rel="stylesheet">
-<link href="//fonts.googleapis.com/css?family=Bree+Serif|Questrial|Rubik+Mono+One" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Mono+One">
      
     
 </head>
@@ -27,19 +26,22 @@
 	
 	<header>
     <h1>Bikes R Us!</h1>
-    <h2>Bikes are what we do</h2>
+    <div class="subheading">It's where the action is!!</div>
+    <div class="bikelogo"><img src="/images/e27fc0d3956638e3dbf88a262cd90e6e.png" alt="bikes r us"></div><br>
+    <audio><source src=""></audio>
+        
     </header>
     
     
     <!-- page navigation links here -->
        <!-- page navigation links here -->
-     <nav>
+     <nav class="clearfix">
          <button onclick="toggleMenu()">&#9776;</button>
         <ul id="dropdown" class="hide">   
     <li class="active"><a href="index.html">Home</a></li>
     <li><a href="Tours.html">Adventure Tours</a> 
         <ul>
-            <li class="active"><a href="//www.alltrails.com/trail/us/montana/sypes-canyon">Sypes Canyon Trail</a></li>
+            <li class=""><a href="//www.alltrails.com/trail/us/montana/sypes-canyon">Sypes Canyon Trail</a></li>
             <li><a  href="//www.alltrails.com/trail/us/montana/grotto-falls-trail">Grotto Falls Trail</a></li>
             <li><a  href="//www.alltrails.com/trail/us/montana/triple-tree-trail">Triple Tree Trail</a></li>
         </ul></li>
@@ -80,11 +82,9 @@
          </nav>
 
     <!-- page content here -->
-    <div id="content">
-    <h1>Main Page</h1>
-    <p>Its where the action is</p> 
-<div class="slideshow">     
-      
+<div id="content">
+<article class="introduction"><h1>Our Promise To You!!</h1><br>
+    <p>Welcome to the best place for a ride down memory lane. We promise you the time of your life . Bring your family, friends, co workers,and even those you dont like. Bikes R Us promises you will leave satisfied with experience. That is not all we provied. We provide the best services on this side of the world and that includes prices. I you can find a better price, we will match it.</p> </article>
 <div class="mySlides">
         <img src="images/bikingnight.jpg" alt="night biking">
         <img src="images/lake-placid-cycling.jpg" alt="lake placid">
@@ -94,12 +94,12 @@
         <img src="images/jump_over.jpg" alt="Jump over">
 </div>
         </div>
-        </div><!-- end content -->        
+               
     
     <footer>
-    <div id="footerbar">  &copy;2018 Copyrights | <a href="resources.html">Resources</a> | <a href="contactus.htm">Contact Us / MAPS</a> | <img src="images/bike_logo.png" alt="bike logo" id="bikelogo" width="40px" height="30px"> | 
-        <a href="">Overview Video</a>  |  <span id="currentdate"></span><br>
-            </div>
+    <div id="footerbar">  &copy;2018 Copyrights | <a href="resources.html">Resources</a> | <a href="contactus.htm">Contact Us / MAPS</a> | <img src="images/bike_logo.png" alt="bike logo" id="bikelogo"> | 
+        <a href="">Overview Video</a>   
+            </div> 
     </footer>
     <script src="scripts/hamburger.js"></script>
 </body>
