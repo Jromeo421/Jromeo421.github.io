@@ -9,41 +9,38 @@
 	#container {
 		margin: 2em auto;
 		border: 1px solid #888;
+         
 	}
 
 /*-----HEADER -----*/
 
-.bikelogo{ 
-    width: 25%;
-    height: auto;
-    float: none;
-    margin:2%;
-    padding:0;
-    
-    }
 
 /*-----NAVigation -----*/
     
     nav {
-        width: 100%;
-        float: none;
-    }
-    nav ul li a { 
         width: 100%; 
-        background: transparent; 
-        border: none; 
-        padding-left: 85px; 
-        padding-right: 90px; 
+        float: none;
         text-align: center;
     }
+    nav ul {content: ""; display: table; clear:both;}
+    nav ul li a {
+        background: transparent; 
+        border: none; 
+    }
     
-   nav ul li { 
-        float: left;
+   nav ul li {
+       font-size: 26px;
+       float: left;
+       border: none;
+       display: block;
+       
     }
 
     nav ul li a {
         margin: 0; 
         text-align: center;
+        border: none;
+        float: none;
     }
     
 /*-----CONTENT -----*/
@@ -68,11 +65,22 @@
     nav li:hover ul {
         left: auto;
     }
-    .introduction {
+    
+.introduction {
         margin: 10%; 
         text-align: justify; 
         text-indent: 50px;
-    } 
+} 
+
+
+footer a:hover {
+    color: #f47b3f; 
+} 
+    
+footer img:hover {
+    background-color: #f47b3f; 
+    border-radius: 5px 5px;
+    }
     
 .mySlides{ 
     padding: 15%;  
