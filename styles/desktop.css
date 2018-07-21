@@ -83,9 +83,11 @@ footer img:hover {
     }
     
 .mySlides{ 
-    padding: 15%;  
+    padding: 15%; 
     border-radius: 70px 15px;
     }
+    
+    .mySlides img { padding-top: 5%; padding-bottom: 5%;}
     
 /*----- FOOTER -----*/
 
