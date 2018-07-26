@@ -10,9 +10,9 @@ if (pageHREF !== "") {
     
     for (i = 0; i < menu.length; i++) {
         var currentURL = (menu[i].getAttribute('href'));
-        menu[i].className = "";
+        menu[i].className = '';
         if (currentURL === pageHREF) {
-            menu[i].className = "active";
+            menu[i].className = 'active';
         }
     }
 }

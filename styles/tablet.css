@@ -1,14 +1,17 @@
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 36em) {
 /*-----BODY -----*/
-
+    body {background: linear-gradient(to bottom, #715470 2%,#953250 73%);margin: 0; padding:0;width: 100%; height: auto;}
+    main {background: #deedcb; margin: 0; width: 100%;}
+    header{padding: .5em 4%; margin: 0;}
+    header img {float: left; padding: 0; margin: 0;}
 /*-----NAVigation -----*/
     nav button {display: none;}
+    nav ul {display: block;}
     
     nav { 
-     
+        margin: 0;
         float: left;
-        padding: 0;
-        background-color: linear-gradient(to bottom, #715470 2%,#953250 73%);
+        background: linear-gradient(to bottom, #715470 2%,#953250 73%);
     }
     
   
@@ -33,22 +36,8 @@
         background: rgba(255,255,255,0.3);
     }
     
-    nav ul li.active a {color: orange;}
     
     /*-------------------------Submenu items----------------*/
-    nav ul li ul li {
-        padding: 0;
-        margin-left: 4%;
-        background: linear-gradient(to bottom, #715470 2%,#953250 73%);
-    }
-    
-    nav ul li ul li a {
-        
-        padding: .6em;
-        padding-left: 20px;
-        font-size: .8em;
-        color: #deedcd;
-        
-    }
-    
+   
+    #content {background: #deedcb;}
 }
