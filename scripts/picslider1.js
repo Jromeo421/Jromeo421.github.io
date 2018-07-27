@@ -2,7 +2,7 @@ $(function() {
     
     //configuration
     var height = 432;
-    var animatedSpeed = 1000;
+    var animatedSpeed = 2000;
     var pause = 3000;
     var currentSlide = 1;
     //cache DOM
@@ -13,7 +13,7 @@ $(function() {
     
     function startSlider(){
         interval = setInterval(function() {
-            $slideContainer.animate({'margin-left': '432' + width}, animatedSpeed, function() { currentSlide++; 
+            $slideContainer.animate({'margin-left': '432' +width}, animatedSpeed, function() { currentSlide++; 
                    if(currentSlide === $slides.length) {
                        currentSlide = 1;
                        $slideContainer.css('margin-left', 0);
