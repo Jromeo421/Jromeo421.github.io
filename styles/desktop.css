@@ -48,6 +48,11 @@
         width: 100%; 
         float: none;
     }
+    
+    #content article {
+        width: 100%
+        
+    }
 
     nav ul li ul {
         z-index: 99;
@@ -65,13 +70,8 @@
     nav li:hover ul {
         left: auto;
     }
-    
-.introduction {
-        margin: 10%; 
-        text-align: justify; 
-        text-indent: 50px;
-} 
-
+    div.gallery img {padding: 5%;}
+    .gallery {padding: 6%; border-radius: 10%;}
 
 footer a:hover {
     color: #f47b3f; 

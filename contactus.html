@@ -26,7 +26,7 @@
 	<div id="wrapper">
     <div id="container">
         
-	<header>
+	<header class="clearfix">
     <img src="images/bike_logo_sm.png" alt="bikes r us">
     <h1>Bikes R Us!</h1>
     <h2>It's where the action is!!</h2>
@@ -48,21 +48,71 @@
     <li class=""><a href ="resources.html">References</a></li>
 </ul>
          </nav>
-
+        <article class="contactinfo">
+        <div class="keepOpen">
+            <h1>Contact Information</h1><br>
+            <h3>Store Hours: Mon - Fri 8:00 - 5:00 CDT</h3><br>
+            <h3>3950 Valley Commons Drive</h3><br>
+            <h3>Bozeman, MT</h3>
+            <p><a class="googlemaps" href="googlemaps.html"><img src="images/mapsymbol1.png" alt="google maps"></a></p><br></div>
+        </article>
     <!-- page content here -->
 <div id="content">
-<article class="introduction"><h1>To be included</h1><br>
-   <p></p> </article>
+        <main>
+            <h2>Tell Us About Your Experience</h2>
+
+            <form name="feedback" method="get" action="thanks.html" id="formalert">
+
+<fieldset>
+    <legend>Personal Information</legend>
+        <label class="top">First Name* <input type="text" name="fname" required></label>
+        <label class="top">Last Name* <input type="text" name="lname" required></label>
+        <label class="top">E-mail* <input type="email" name="email" placeholder="visiter@gmail.com" required></label>
+        <label class="top">Phone <input type="tel" name="phone" placeholder="9999999999" required></label>
+        <label class="top">Zip Code* <input type="number"  placeholder="99999" required></label>
+</fieldset>
+
+                
+    <fieldset>
+        <legend>Survey Information</legend>
+        <label class="top">Visit Date:
+            <input name="stormdate" type="date"></label>
+        <label class="sbs">Favorite Trail:
+            <select name="type">
+                <option value="">Please Select</option>
+                <option value="Triple">Triple Tree</option>
+                <option value="Sypes">Sypes Canyon</option>
+                <option value="Hurricane">Grotto Falls</option>
+            </select>
+            </label>
+    
+        <label class="sbs">Howd you like the site? (1 to 10)<br><input id="rating" name="severity" type="range" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="severitylevel">10</span></label><br>
+        
+        <label class="top" id="site">Would You visit Us Again? <br><input name="howwasi" type="radio" value="yes">Yes</label>
+        <label class="top"><input name="howwasi" type="radio" value="maybe">Maybe</label>
+        <label class="top"><input name="howwasi" type="radio" value="no">No</label>
+     </fieldset>
+                
+     <fieldset>    
+        <legend>Feel Free to share your Thoughts</legend>
+        <textarea class="textbox" rows="10" cols="25" name="comments"></textarea>
+    </fieldset>
+                
+    <input type="submit" value="SUBMIT MY SURVEY!" class="submitBtn"><br>
+</form>
+</main>
 
         </div>
            </div>    
     </div>
    <footer>
-    <div id="footerbar">  <a href="http://www.byui.edu/copyright/permissions/copyright-use-information?cid=fli%3a190">&copy;2018 Copyrights</a> | <a href="resources.html">Resources</a> | <a href="contactus.html">Contact Us / MAPS</a> | <a href="index.html"><img src="images/bike_logo.png" alt="bike logo" id="bikelogo"></a> 
+    <div id="footerbar">  <a href="http://www.byui.edu/copyright/permissions/copyright-use-information?cid=fli%3a190">&copy;2018 Copyrights</a> | <a href="resources.html">Resources</a> | <a href="contactus.html">Contact Us / MAPS</a> | <a href="index.html"><img src="images/bike_logo.png" alt="bike logo" id="bikelogo"></a> | <span id="currentdate"></span> |
         <a href="https://youtube.com">Overview Video</a>   
             </div> 
     </footer>
 </body>
     <script src="scripts/hamburger.js"></script>
-<script src="scripts/active.js"></script>
+    <script src="scripts/active.js"></script>
+    <script src="scripts/javascript.js"></script>
+    <script src="scripts/currentdate.js"></script>
 </html>
