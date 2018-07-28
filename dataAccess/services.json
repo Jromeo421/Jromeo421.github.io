@@ -23,7 +23,7 @@
         {
             "service": "Tire Labor",
             "description": "Tube or Tire Labor",
-            "price": "$5 / Each"
+            "price":     "$5 / Each"
         }
         
     ]
