@@ -1,34 +1,29 @@
 {
     "Services": [
         {
-            "service": "Flat Repair",
-            "description": "We will repair your flat tires.",
-            "price": "$10.00 each tire plus parts"
+            "service": "Standard Tube Purchase",
+            "description": "Tubes of any size",
+            "price": "$8 & Up"
         },
         {
-            "service": "Tune-Up",
-            "description": "We will tune up you bike 14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
-            "price": "$200.00 plus parts"
+            "service": "Tube Repair",
+            "description": "Thorn Resistant Tube",
+            "price": "$15 & Up"
         },
         {
-            "service": "Brakes",
-            "description": "We will replace the brake system",
-            "price": "$30.00 plus parts"
+            "service": "Tires",
+            "description": "Variaty of tires",
+            "price": "$9.95 & Up"
         },
         {
-            "service": "Inspection",
-            "description": "14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
-            "price": "$100.00"
+            "service": "Installation",
+            "description": "Sline Installed",
+            "price": "2 / $10.00"
         },
         {
-            "service": "Inspection",
-            "description": "14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
-            "price": "$100.00"
-        },
-        {
-            "service": "Inspection",
-            "description": "14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
-            "price": "$100.00"
+            "service": "Tire Labor",
+            "description": "Tube or Tire Labor",
+            "price": "$5 / Each"
         }
         
     ]
