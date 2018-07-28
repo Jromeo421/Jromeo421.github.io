@@ -29,6 +29,126 @@
             "description": "Tube or Tire Labor",
             "price": "$5 / Each",
             "additional": "signature services - $175, Annual service - $301"
+        },
+        {
+            "service": "Standard Tube Purchase",
+            "description": "Tubes of any size",
+            "price": "$8 & Up",
+            "additional": "signature services - $150, Annual service - $290"
+        },
+        {
+            "service": "Tube Repair",
+            "description": "Thorn Resistant Tube",
+            "price": "$15 & Up",
+            "additional": "signature services - $350, Annual service - $500"
+        },
+        {
+            "service": "Tires",
+            "description": "Variaty of tires",
+            "price": "$9.95 & Up",
+            "additional": "signature services - $100, Annual service - $220"
+        },
+        {
+            "service": "Installation",
+            "description": "Sline Installed",
+            "price": "2 / $10.00",
+            "additional": "signature services - $225, Annual service - $422"
+        },
+        {
+            "service": "Tire Labor",
+            "description": "Tube or Tire Labor",
+            "price": "$5 / Each",
+            "additional": "signature services - $175, Annual service - $301"
+        }, 
+        {
+            "service": "Standard Tube Purchase",
+            "description": "Tubes of any size",
+            "price": "$8 & Up",
+            "additional": "signature services - $150, Annual service - $290"
+        },
+        {
+            "service": "Tube Repair",
+            "description": "Thorn Resistant Tube",
+            "price": "$15 & Up",
+            "additional": "signature services - $350, Annual service - $500"
+        },
+        {
+            "service": "Tires",
+            "description": "Variaty of tires",
+            "price": "$9.95 & Up",
+            "additional": "signature services - $100, Annual service - $220"
+        },
+        {
+            "service": "Installation",
+            "description": "Sline Installed",
+            "price": "2 / $10.00",
+            "additional": "signature services - $225, Annual service - $422"
+        },
+        {
+            "service": "Tire Labor",
+            "description": "Tube or Tire Labor",
+            "price": "$5 / Each",
+            "additional": "signature services - $175, Annual service - $301"
+        },
+        {
+            "service": "Standard Tube Purchase",
+            "description": "Tubes of any size",
+            "price": "$8 & Up",
+            "additional": "signature services - $150, Annual service - $290"
+        },
+        {
+            "service": "Tube Repair",
+            "description": "Thorn Resistant Tube",
+            "price": "$15 & Up",
+            "additional": "signature services - $350, Annual service - $500"
+        },
+        {
+            "service": "Tires",
+            "description": "Variaty of tires",
+            "price": "$9.95 & Up",
+            "additional": "signature services - $100, Annual service - $220"
+        },
+        {
+            "service": "Installation",
+            "description": "Sline Installed",
+            "price": "2 / $10.00",
+            "additional": "signature services - $225, Annual service - $422"
+        },
+        {
+            "service": "Tire Labor",
+            "description": "Tube or Tire Labor",
+            "price": "$5 / Each",
+            "additional": "signature services - $175, Annual service - $301"
+        },
+        {
+            "service": "Standard Tube Purchase",
+            "description": "Tubes of any size",
+            "price": "$8 & Up",
+            "additional": "signature services - $150, Annual service - $290"
+        },
+        {
+            "service": "Tube Repair",
+            "description": "Thorn Resistant Tube",
+            "price": "$15 & Up",
+            "additional": "signature services - $350, Annual service - $500"
+        },
+        {
+            "service": "Tires",
+            "description": "Variaty of tires",
+            "price": "$9.95 & Up",
+            "additional": "signature services - $100, Annual service - $220"
+        },
+        {
+            "service": "Installation",
+            "description": "Sline Installed",
+            "price": "2 / $10.00",
+            "additional": "signature services - $225, Annual service - $422"
+        },
+        {
+            "service": "Tire Labor",
+            "description": "Tube or Tire Labor",
+            "price": "$5 / Each",
+            "additional": "signature services - $175, Annual service - $301"
         }
     ]
 }
