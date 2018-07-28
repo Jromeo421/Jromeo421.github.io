@@ -36,3 +36,71 @@
     padding: 0;
     background-color: #fff;
 }
+    
+#eventdetails p {
+    padding: 3%;
+    text-align: justify; 
+    text-indent: 30px;
+    } 
+    
+.detailcolor {
+    color: #f47b3f;
+}
+
+    /*-------------Form------------*/
+form fieldset{ 
+    margin: .5rem; 
+    border: 1px solid #f47b3f; 
+    border-radius: 15px; 
+    padding: .5rem;
+    width: 100%;
+    max-width: 96%;
+    
+    
+}
+
+form legend { color: orange; 
+            margin: 0 1rem; 
+            padding: .5rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1.2em
+}
+
+form label.top,  form label.sbs {display: block; 
+                padding: .5rem;
+                font-size: 1rem;
+                text-align: left;
+                font-weight: 600;
+                line-height: 20px;
+}
+form label.top input, form label.top select, form label.sbs, form label.sbs select {
+    display:block; 
+    border-radius: 20px; 
+    font-size: 1.1rem; 
+    color: #555;
+    width: 96%;
+    padding: .3rem;
+    max-width: 30rem;
+    
+}
+
+form textarea.textbox { border-radius:20px; width: 100%; max-width: 96%;}
+
+form input.submitBtn {
+    padding: .75rem 1rem;
+    border-radius:10px;
+    border: 2px inset #715470;
+    margin: 2rem 2%;
+    width: 100%;
+    max-width: 20rem;
+
+}
+
+form label.top input:required {
+    border: red solid 3px;
+}
+form label.top input:required:valid {
+    border: green solid 3px;
+}
+}

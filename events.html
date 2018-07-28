@@ -51,8 +51,53 @@
 
     <!-- page content here -->
 <div id="content">
-<article class="introduction"><h1>To be included</h1><br>
-   <p></p> </article>
+<main>
+            <h2>Cycle the Continental Divide</h2>
+            <article id="eventdetails">
+                <h3 id="eventd">Event Details</h3> 
+                <h3>When: <span class="detailcolor">04/21/2019</span></h3>
+                <h3>Where: <span class="detailcolor">Bozeman, MT</span></h3>
+                <h3>Time: <span class="detailcolor">06:00 a.m.</span></h3>
+                <h3>Cost: <span class="detailcolor">$100 deposit fee</span></h3>
+                <p>It’s back! The Sweet Run is excited for another great race this year on Saturday, April 21st. This great community event is a liaison event of the Sweet Pea Festival and one of the oldest running races in Bozeman offering something for competitive runners to families looking for a fun event. With a start and finish for both a 5k and 10k race on Main Street, this is a great way to get out and see Bozeman. Whether its running past the Sweet Pea Festival grounds, by MSU or touring the historic downtown, you will get a great slice of Bozeman while you run. The Sweet Pea Run is also known for their great prizes.  </p>
+            </article>
+            <form name="feedback" method="get" action="thanks.html" id="formalert">
+
+<fieldset>
+    <legend>Personal Information</legend>
+        <label class="top">First Name* <input type="text" name="fname" placeholder="Will" required></label>
+        <label class="top" >Last Name* <input type="text" name="lname" placeholder="Smith" required></label>
+        <label class="top">Email*<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="example@domain.com" required></label>
+        <label class="top">Phone <input type="tel" name="phone" placeholder="9999999999" required></label>
+        <label class="top">Zip Code* <input type="number"  placeholder="99999" required></label>
+    </fieldset> 
+    <fieldset>
+        <legend>Group Information</legend>
+        <label class="top">Group Size<Select>
+                            <option>Select Option</option>
+                            <option value="one" >Myself</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                            <option value="six">6</option>
+                            <option value="seven">7</option>
+                            <option value="eight">8</option>
+                        </Select></label>            
+    </fieldset>
+    <fieldset>
+        <label class="top" id="site">Will your attendance require bike accessories? <br><input name="howwasi" type="radio" value="yes">Yes</label>
+        <label class="top"><input name="howwasi" type="radio" value="maybe">Maybe</label>
+        <label class="top"><input name="howwasi" type="radio" value="no">No</label>
+     </fieldset>         
+     <fieldset>    
+        <legend>Do you have any special requests? </legend>
+        <textarea class="textbox" rows="10" cols="25" name="comments"></textarea>
+    </fieldset>
+                
+    <input type="submit" value="SUBMIT MY SURVEY!" class="submitBtn"><br>
+</form>
+</main>
 
         </div>
            </div>    

@@ -293,12 +293,63 @@ figure.salespic img {float: left; width: 25%;}
 
 /*---------Table---------------*/
 table {
-    margin:2% auto 2% auto;  
-    clear: both;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: gainsboro;
+    margin:0;
+    width: 100%;
+    padding: 30px
 }
+
+
 /*------------Article Setup------------*/
 article {
     padding: .5em 2%;  
+}
+/*--------------------Bike Details---------------*/
+article.bikedetail ul {
+    display: block; 
+    margin: 0; 
+    padding: 2%;
+    line-height: 200%;
+}
+
+#name, #name1, #name2 {
+    font-weight:600; 
+    font-size: .9em; 
+    margin: 0; 
+    color: #f47b3f; text-align: center; 
+    text-decoration-line: underline;
+}
+
+#type, #type1, #type2 {
+    font-weight:600; 
+    font-size: .9em; 
+    margin: 0; 
+    color: #555; 
+    text-align: center;
+}
+
+#color, #color1, #color2 {
+    font-weight:600; 
+    font-size: .9em; 
+    margin: 0; 
+    color: #555;
+}
+
+#price, #price1, #price2 {
+    font-weight:800; 
+    font-size: .9em; 
+    margin: 0; 
+    color: red;
+}
+
+#descript, #descript1, #descript2 {
+    font-weight:600; 
+    font-size: .9em; 
+    margin: 0; 
+    color: #555;
 }
 
 /*---------------Map---------------------*/
@@ -342,10 +393,14 @@ article#gallerypic {text-align: center;}
     border-radius: 30px; width: 10%;
 }
 
+.detailcolor {
+    color: red;
+}
+
 /*-------------Form------------*/
 form fieldset{ 
     margin: .5rem; 
-    border: 1px solid #f47b3f; 
+    border: 3px solid #f47b3f; 
     border-radius: 15px; 
     padding: .5rem;
     width: 100%;
@@ -359,32 +414,33 @@ form legend { color: orange;
             padding: .5rem;
             text-align: left;
             font-weight: 600;
-            font-size: 1.2em
+            font-size: .7em
 }
 
 form label.top,  form label.sbs {display: block; 
                 padding: .5rem;
-                font-size: 1rem;
+                font-size: .9rem;
                 text-align: left;
                 font-weight: 600;
 }
 form label.top input, form label.top select, form label.sbs, form label.sbs select {
     display:block; 
     border-radius: 20px; 
-    font-size: 1.1rem; 
-    color: #555;
+    font-size: .6rem; 
+    color: #deedcb;
+    font-weight: 600;
     width: 96%;
-    padding: .75rem;
+    padding: .5rem;
     max-width: 30rem;
     
 }
 
-form textarea.textbox { border-radius:20px; width: 100%; max-width: 96%;}
+form textarea.textbox { border-radius:15px; width: 100%; max-width: 96%;}
 
 form input.submitBtn {
     padding: .75rem 1rem;
     border-radius:10px;
-    border-color: #f47b3f;
+    border: 2px solid #f47b3f;
     margin: 0 0 2rem 2%;
     width: 100%;
     max-width: 20rem;

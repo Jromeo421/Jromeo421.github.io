@@ -1,0 +1,24 @@
+{
+    "Services": [
+        {
+            "service": "Flat Repair",
+            "description": "We will repair your flat tires.",
+            "price": "$10.00 each tire plus parts"
+        },
+        {
+            "service": "Tune-Up",
+            "description": "We will tune up you bike 14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
+            "price": "$200.00 plus parts"
+        },
+        {
+            "service": "Brakes",
+            "description": "We will replace the brake system",
+            "price": "$30.00 plus parts"
+        },
+        {
+            "service": "Inspection",
+            "description": "14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
+            "price": "$100.00"
+        }
+    ]
+}
