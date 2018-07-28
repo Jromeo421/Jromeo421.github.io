@@ -7,24 +7,26 @@ serviceObject.send();
 serviceObject.onload = function() {
     var serviceInfo = serviceObject.response;
     console.log(serviceInfo);
+    
+    
     //First service
-    document.getElementById("service1").innerHTML = serviceInfo.Services["0"].service
-    document.getElementById("desc1").innerHTML = serviceInfo.Services["0"].description
-    document.getElementById("price1").innerHTML = serviceInfo.Services["0"].price
+    document.getElementById("type").innerHTML = serviceInfo.Services["0"].service
+    document.getElementById("desc").innerHTML = serviceInfo.Services["0"].description
+    document.getElementById("price").innerHTML = serviceInfo.Services["0"].price
     //Second service
-    document.getElementById("service2").innerHTML = serviceInfo.Services["1"].name
-    document.getElementById("desc2").innerHTML = serviceInfo.Services["1"].description
-    document.getElementById("price2").innerHTML = serviceInfo.Services["1"].price
+    document.getElementById("type1").innerHTML = serviceInfo.Services["1"].name
+    document.getElementById("desc1").innerHTML = serviceInfo.Services["1"].description
+    document.getElementById("price1").innerHTML = serviceInfo.Services["1"].price
     //Third service
-    document.getElementById("service3").innerHTML = serviceInfo.Services["2"].name
-    document.getElementById("desc3").innerHTML = serviceInfo.Services["2"].description
-    document.getElementById("price3").innerHTML = serviceInfo.Services["2"].price
+    document.getElementById("type2").innerHTML = serviceInfo.Services["2"].name
+    document.getElementById("desc2").innerHTML = serviceInfo.Services["2"].description
+    document.getElementById("price2").innerHTML = serviceInfo.Services["2"].price
     //Fourth service
-    document.getElementById("service4").innerHTML = serviceInfo.Services["3"].name
-    document.getElementById("desc4").innerHTML = serviceInfo.Services["3"].description
-    document.getElementById("price4").innerHTML = serviceInfo.Services["3"].price
+    document.getElementById("type3").innerHTML = serviceInfo.Services["3"].name
+    document.getElementById("desc3").innerHTML = serviceInfo.Services["3"].description
+    document.getElementById("price3").innerHTML = serviceInfo.Services["3"].price
     //Fifth service
-      document.getElementById("service5").innerHTML = serviceInfo.Services["3"].name
-    document.getElementById("desc5").innerHTML = serviceInfo.Services["3"].description
-    document.getElementById("price5").innerHTML = serviceInfo.Services["3"].price
+      document.getElementById("type4").innerHTML = serviceInfo.Services["4"].name
+    document.getElementById("desc4").innerHTML = serviceInfo.Services["4"].description
+    document.getElementById("price4").innerHTML = serviceInfo.Services["4"].price
 }

@@ -19,6 +19,17 @@
             "service": "Inspection",
             "description": "14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
             "price": "$100.00"
+        },
+        {
+            "service": "Inspection",
+            "description": "14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
+            "price": "$100.00"
+        },
+        {
+            "service": "Inspection",
+            "description": "14 - point inspection to keep you safe on the trails. Inlcuding: tires, spokes, rims, brakes, gears, de-railer, frame, shifter, handles and more.",
+            "price": "$100.00"
         }
+        
     ]
 }
