@@ -29,7 +29,6 @@
     <img src="images/bike_logo_sm.png" alt="bikes r us">
     <h1>Bikes R Us!</h1>
     <h2>It's where the action is!!</h2>
-    <div class="keepOpen"></div>
     </header>
     
     <!-- page navigation links here -->
@@ -37,7 +36,6 @@
     <nav class="clearfix">
     <button onclick="toggleMenu()">&#9776;</button>
 <ul id="dropdown" class="hide"> 
-    <div class="keepOpen"></div>
     <li class="active"><a href="index.html">Home</a></li>
     <li class=""><a href="Tours.html">Adventure Tours</a></li>
     <li class=""><a  href="events.html">Event Listings</a></li>
@@ -47,55 +45,56 @@
     <li class=""><a href ="resources.html">References</a></li>
 </ul>
          </nav>
-
-    <!-- page content here -->
-    
-    <article id="bikeinfo">
-    <div >
-        <h1>Bikes R Us!! - Sales Specifications</h1>
+        <div class="container">
+            <div class="header">
+                <h1>One Time Only -Bikes for Sales!!!</h1>
+            </div>
+            
+            <div id="slider">
+            <figure class="slides">
+                <li class="slide"><img src="images/sales.png" alt="sales Logo"></li>
+                <li class="slide"><img src="images/Reynolds_853_bike800.jpg" alt="gravity"></li>
+              
+                <li class="slide"><img src="images/sales.png" alt="sales Logo"></li>
+                <li class="slide"><img src="images/gravity_yellow800.jpg" alt="reynolds"></li>
+                <li class="slide"><img src="images/sales.png" alt="sales Logo"></li>
+                <li class="slide"><img src="images/lightning_1500_img800.jpg"alt="Lightning", srcset=""></li>
+            </figure> 
+            <article id="bikedetail">
+                <ul>
+                    <li id="name">bike</li>
+                    <li id="type">type</li>
+                    <li id="colors">color</li>
+                    <li id="price">$0</li>
+                    <li id="descrip">description</li>
+                </ul>
+                  <ul>
+                    <li id="name1">bike</li>
+                    <li id="type1">type</li>
+                    <li id="colors1">color</li>
+                    <li id="price1">$0</li>
+                    <li id="descrip1">description</li>
+                </ul>
+                  <ul>
+                    <li id="name2">bike</li>
+                    <li id="type2">type</li>
+                    <li id="colors2">color</li>
+                    <li id="price2">$0</li>
+                    <li id="descrip2">description</li>
+                </ul>
+                </article>
+        </div>
     </div>
-    </article>
-    <!---------------end of Title for Page-------------->
-    <article>
-        <h3>2018 Gravity FSX 1.0</h3>
-        <div id="slider" class="clearfix">
-            <ul>
-            <li class="slide"><img src="images/sales.png" alt="salesLogo"></li>
-            <li class="slide"><img src="images/gravity_yellow.jpg" alt="Gravity"></li>
-            </ul>
-        </div>
-    </article> 
-        
-   <article id="bikeinfo">
-       
-    <h3>Reynold 853 Road Bike</h3>
-    <div id="slider1">
-        <ul class="slides1">
-            <li class="slide1"><img src="images/sales.png" alt="salesLogo"></li>
-            <li class="slide1"><img src="images/Reynolds_853_bike.jpg" alt="Reynolds"></li>
-        </ul>
-   
-    
-        <div>
-            <h3>Dawes Lightning 1500</h3>
-        </div>
-    
-        <ul class="slides2">
-            <li class="slide2"><img src="images/sales.png" alt="salesLogo"></li>
-            <li class="slide2"><img src="images/lightning_1500_img432.jpg" alt="Lightning"></li>
-        </ul>
-      
-    
+    </div>
     <footer>
-    <div id="footerbar">  <a href="http://www.byui.edu/copyright/permissions/copyright-use-information?cid=fli%3a190">&copy;2018 Copyrights</a> | <a href="resources.html">Resources</a> | <a href="contactus.html">Contact Us / MAPS</a> | <a href="index.html"><img src="images/bike_logo.png" alt="bike logo" id="bikelogo"></a> 
+    <div id="footerbar">  <a href="http://www.byui.edu/copyright/permissions/copyright-use-information?cid=fli%3a190">&copy;2018 Copyrights</a> | <a href="resources.html">Resources</a> | <a href="contactus.html">Contact Us / MAPS</a> | <a href="index.html"><img src="images/bike_logo.png" alt="bike logo" id="bikelogo"></a> | <span id="currentdate"></span> | 
         <a href="https://youtube.com">Overview Video</a>   
             </div> 
     </footer>
 </body>
     <script src="scripts/hamburger.js"></script>
-<script src="scripts/active.js"></script>
-    <script src="scripts/picslider.js"></script>
-    <script src="scripts/picslider1.js"></script>
-    <script src="scripts/picslider2.js"></script>
-            
+    <script src="scripts/active.js"></script>
+    <script src="scripts/picslider.js"></script> 
+    <script src="scripts/currentdate.js"></script>
+    <script scr="scripts/sales.js"></script>
 </html>

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 64em) {
 /*-----BODY -----*/
 	body {padding: 0; margin: 0;}
 
@@ -50,10 +50,10 @@
     }
     
     #content article {
-        width: 100%
+        width: 100%;
         
     }
-
+    figure.w50right {max-width: 50%; margin-left:400px;}
     nav ul li ul {
         z-index: 99;
         position: absolute;
@@ -73,6 +73,7 @@
     div.gallery img {padding: 5%;}
     .gallery {padding: 6%; border-radius: 10%;}
 
+
 footer a:hover {
     color: #f47b3f; 
 } 
@@ -87,8 +88,12 @@ footer img:hover {
     border-radius: 70px 15px;
     }
     
-    .mySlides img { padding-top: 5%; padding-bottom: 5%;}
-    
+.mySlides img { 
+    padding-top: 5%; 
+    padding-bottom: 5%;
+    }
+
+
 /*----- FOOTER -----*/
 
     .clearfix:after {content: ""; display: table; clear:both;}

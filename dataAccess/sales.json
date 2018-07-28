@@ -1,0 +1,28 @@
+{
+"bicycle": [
+{
+    "name": "Gravity FSX 1.0",
+    "type": "Mountain",
+    "colors": "Yellow, Gray, Black, White, Rd",
+    "price": "$329.99",
+    "descrip": "FSX Full Suspension mountain bikes feature Advanced Aluminum frames with a Hydroformed tubes, advanced CantiBeam single-pivot rear suspension and trail-ready geometry. Features: Powerful disc brakes and wide range Shimano 24 speed drivetrain for smooth shifting on rough terrain. The plush Suntour suspension fork further smooths the terrain. Adjustable preload provides maximum efficiency. Incredibly specified with precision Shimano Acera rear derailleur, tough SunTour Cranks, strong Double-wall rim wheels, Powerful Disc brakes, Adjustable Suspension fork.",
+},
+
+{
+    "name": "Reynolds 853",
+    "type": "Trail",
+    "color": "Saffire Blue, Burnished Copper",
+    "price": "$1695.95",
+    "description": "You can do whatever you want with a Motobecane Gran Premio PRO Reynolds 853 Road Bikes, but if you're anything like the guys at Motobecane, you're gonna want to cruise a century ride in style and comfort or travel unfamiliar blue-line highways on this bicycle. Maybe ride it to your reunion. Maybe all on the same day? The Gran Premio PRO Reynolds 853 frame is supremely comfortable and offers incredible performance and strength.
+},
+
+    {
+    "name": "Dawn Lightning",
+    "type": "Trail",
+    "color": "Black",
+    "price": "$699.95",
+    "description": "with Carbon Forks and Shimano Wheelsets Handbuilt advanced engineered and lightweight Altair 1 aluminum compact frame. Shimano 105/4600 has 30 speeds, gives you most of the cutting edge tech of the top of the line Ultegra and Dura Ace without the budget biting price. Performance: The Carbon Fork is a high performance item that is normally only found on bikes starting at $900+ A full Shimano Drivetrain AND Shimano Wheelset is unheard of at this low sale price.
+    }
+        
+    ]
+}

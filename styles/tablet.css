@@ -1,10 +1,38 @@
-@media only screen and (min-width: 36em) {
+@media only screen and (min-width: 37.5em) {
 /*-----BODY -----*/
     
 /*-----NAVigation -----*/
     nav button {display: none;}
     nav ul {display: block;}
     nav ul.hide {display: block;}
-    header img {margin-bottom: 2%;}
+    header img {margin: 2%; width: 10%}
+    article#introTopage {font-size: 1.1em;}
+    article {display: grid; width: 100%; height: auto; grid-column: 2;}
+    article .w50right {width: 100%; margin: 0; padding: 20px;}
     
+    /* ----------------- Slider ------------------ */
+#slider {
+    width: 800px;
+    height: 465px;
+    overflow: hidden;
+    margin: 2% auto 2% auto;
+    border: none;
+}
+#slider .slides {
+    display: block;
+    width: 3500px;
+    height: 465px;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 800px;
+    height: 465px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
 }

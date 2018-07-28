@@ -6,7 +6,7 @@ html {-webkit-text-size-adjust: none; }
 
 /*-----BODY -----*/
 body {
-    text-align: center;
+
     background: #deedcb;
     font-family: 'questrial', sans-serif;   
 }
@@ -32,7 +32,7 @@ header img {
 }
 
 header h1 {
-    font-size: 16px;
+    font-size: 20px;
     text-align: center; 
     color: #f47b3f;
     padding-top: 1.1em;
@@ -110,6 +110,7 @@ nav ul li a:hover {
 }
 
 /*------------Contact--------------*/
+.price {color: red;}
 .contactinfo { 
     margin-top: 50px;
     width: 50%;
@@ -130,7 +131,7 @@ nav ul li a:hover {
 
 .contactinfo h3 {
     font-weight: 500; 
-    font-size: 18px; 
+    font-size: 12px; 
 }
 
 
@@ -142,90 +143,6 @@ nav ul li a:hover {
     border: 1px solid #0061aa; 
     padding: 20px 2%;
     margin: 0;
-}
-
-#slider {
-    
-    width: 432px;
-    height: 432px;
-    overflow: hidden;
-    
-}
-
-#slider1 {
-    
-    width: 432px;
-    height: 432px;
-    overflow: hidden;
-    
-}
-
-#slider2 {
-    width: 432px;
-    height: 432px;
-    overflow: hidden;
-}
-
-#slider .slides {
-     display: block;
-    width: 432px;
-    height: 432px;
-    margin: 0;
-    padding: 0;
-}
-}
-
-#slider1 .slides1 {
-     display: block;
-    width: 432px;
-    height: 432px;
-    margin: 0;
-    padding: 0;
-}
-}
-
-#slider2 .slides2 {
-    display: block;
-    width: 432px;
-    height: 432px;
-    margin: 0;
-    padding: 0;
-}
-
-#slider .slide  {
-    float: left;
-    list-style-type: none;
-    width: 432px; 
-    height: 432px;
-}
-#slider1 .slide1 {
-    float: left;
-    list-style-type: none;
-    width: 432px; 
-    height: 432px;
-}
-
-#slider2 .slide2 {
-    float: left;
-    list-style-type: none;
-    width: 432px; 
-    height: 432px;
-}
-.slide img   {
-    padding: 10%;
-    width: 100%; 
-    height: 100%;
-}
-.slide1 img {
-    padding: 10%;
-    width: 100%; 
-    height: 100%;
-}
-
-.slide2 img {
-    padding: 10%;
-    width: 100%; 
-    height: 100%;
 }
 
 .gallery img {
@@ -282,28 +199,32 @@ article li {font-size: 1.5em; font-weight: 600; }
     font-weight: 800;
 }
 
-#content ul li { 
-    margin-left: 3%;
-    padding: .3em;
-    font-size: .8em;
+#content ul li{ 
+    font-size: 8px;
     list-style-type: none;
     color:#444;
-    line-height: 120%;
+    line-height: 200%;
+
 }
 
-#tourvisit {text-align: left; margin-left: 250px; padding-top: 20px;}
+#tourvisit {text-align: left; margin:0; padding-top: 20px;}
 
 
 figure.w50right img {
     width: 100%;
+    height: auto;
 }
 
 figure.w50right {
     background-color: #deedcb;
-    width: 41.666%;
-    border: 1px solid #999;
+    width: 50%;
+    border: 3px solid #f47b34;
     box-shadow: 2px 2px 6px rgba(63,63,63,8.5);
-    margin: 1em;
+    margin-left: 200px; 
+    margin: 50px 0;
+    padding: 0;
+    border-radius: 25px;
+    
 }
 
 figcaption {
@@ -332,6 +253,40 @@ figure.w50right {
 }
 
 /*-----------Sales Bikes--------------*/
+.header {
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    font-weight: 600; 
+    font-size: 1.5em; 
+    color: #0061aa;
+}
+
+#slider {
+        width: 1080px;
+        height: 465px;
+        overflow: hidden;
+        border-radius: 50px;
+        border: 5px solid #0061aa;
+         margin-left: 550px;
+    }
+    
+#slider .slides {
+       display: block;
+       width: 800px;
+        height: 465px;
+        margin: 0;
+        height: 0;
+    }
+    
+#slider .slide {
+        float: left;
+        list-style-type: none;
+        width: 800px;
+        height: 465px;
+    }
+    
+#slider img {width: 800px; height: 465px;}
 
 figure.salespic img {float: left; width: 25%;}
 
@@ -382,7 +337,7 @@ article {
     padding: 2% 30px 30px.5em; 
     margin: 0;
 }
-
+article#gallerypic {text-align: center;}
 #gallerypic img {
     border-radius: 30px; width: 10%;
 }
