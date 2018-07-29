@@ -1,6 +1,6 @@
 // This is the Services Function
 var serviceObject = new XMLHttpRequest();
-serviceObject.open("GET", "https://jromeo421.github.io/dataAccess/services.json");
+serviceObject.open("GET", "//jromeo421.github.io/dataAccess/services.json");
 serviceObject.responseType = "json";
 serviceObject.send();
 /* -------------- Franklin, MN -------------- */
