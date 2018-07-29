@@ -4,26 +4,31 @@
             "service": "Standard Tube Purchase",
             "description": "Tubes of any size",
             "price": "$8 & Up",
+            "color": "black, red, blue & green"
         },
         {
             "service": "Tube Repair",
             "description": "Thorn Resistant Tube",
             "price": "$15 & Up",
+            "color": "black, red, blue & green"
         },
         {
             "service": "Tires",
             "description": "Variaty of tires",
             "price": "$9.95 & Up",
+            "color": "black, red, blue & green"
         },
         {
             "service": "Installation",
             "description": "Sline Installed",
             "price": "2 / $10.00",
+            "color" "black, red, blue & green"
         },
         {
             "service": "Tire Labor",
             "description": "Tube or Tire Labor",
-            "price": "$5 / Each"
+            "price": "$5 / Each",
+            "color": "black, red, blue & green"
         }
     ]
 }

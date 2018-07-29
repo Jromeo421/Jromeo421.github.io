@@ -292,14 +292,16 @@ figure.salespic img {float: left; width: 25%;}
 
 
 /*---------Table---------------*/
+#servicemodel {text-align: center;}
 table {
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
-    background-color: gainsboro;
-    margin:0;
-    width: 100%;
-    padding: 30px
+    grid-template-columns: auto;
+    background-color: darkseagreen;
+    border-radius: 20px; 
+    margin: 0;
+    width: 96%;
+    padding: 20px
 }
 
 
@@ -323,7 +325,7 @@ article.bikedetail ul {
     text-decoration-line: underline;
 }
 
-#type, #type1, #type2 {
+#type, #type1, #type2, #type3, #type4 {
     font-weight:600; 
     font-size: .9em; 
     margin: 0; 
@@ -331,7 +333,7 @@ article.bikedetail ul {
     text-align: center;
 }
 
-#color, #color1, #color2 {
+#color, #color1, #color2, #color3, #color4 {
     font-weight:600; 
     font-size: .9em; 
     margin: 0; 
