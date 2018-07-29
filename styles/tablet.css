@@ -46,6 +46,43 @@
 .detailcolor {
     color: #f47b3f;
 }
+    
+/*---------Table---------------*/
+.paidservice {
+    margin: 0;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px
+    }
+#servicemodel {
+    text-align: center; 
+    font-size: 1.25em; 
+    line-height: 50px; 
+    color:#0061aa; 
+    font-weight: 600;
+    }
+table {
+    
+    grid-template-columns: auto auto;
+    background-color: wheat; 
+    margin: 0 auto 2% auto;
+    width: 96%;
+    padding: 30px;
+    border-collapse: collapse;
+    max-width: 40em;
+    font-weight: 600;
+    border: 2px solid #f47b3f;
+    box-shadow: 5px 5px 9px #000;
+}
+
+table, td, th { 
+    padding: 2%;
+    margin: auto;
+    font-size: 1.1em;
+    text-align: left;
+    
+   
+}
 
     /*-------------Form------------*/
 form fieldset{ 
