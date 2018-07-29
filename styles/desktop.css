@@ -72,7 +72,17 @@
     }
     div.gallery img {padding: 5%;}
     .gallery {padding: 6%; border-radius: 10%;}
-
+/*-----------------------Table Content------------------------*/
+    Table {width: 75%; margin: 200px; background: #715470;
+    background: -moz-linear-gradient(top, #715470 2%, #953250 73%);
+    background: -webkit-linear-gradient(top, #715470 2%,#953250 73%);
+    background: linear-gradient(to bottom, #715470 2%,#953250 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#715470', endColorstr='#953250',GradientType=0 );}
+    th {padding: 50px; }
+    #type, #type1, #type2, #type3 {color: #f47b3f; font-weight: 600;} 
+    #desc, #desc1, #desc2, #desc3 {font-weight: 600}
+    #price, #price1, #price2, #price3 {color: red; font-weight: 600;}
+    #color,#color1, #color2, #color3 {color: #deedcb; font-weight: 600;}
 
 footer a:hover {
     color: #f47b3f; 

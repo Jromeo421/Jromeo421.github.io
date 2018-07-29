@@ -49,11 +49,12 @@
     
 /*---------Table---------------*/
 .paidservice {
-    margin: 0;
+    margin-left: 2%;
     height: auto;
-    padding-top: 200px;
-    padding-bottom: 200px
+    padding: 150px 0 200px 0;
+    width: 100%;
     }
+th {border: 2px outset #f47b3f; font-size: 16px;}
 #servicemodel {
     text-align: center; 
     font-size: 1.25em; 
@@ -61,27 +62,8 @@
     color:#0061aa; 
     font-weight: 600;
     }
-table {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: wheat; 
-    margin: 0 auto 5% auto;
-    width: 100%;
-    padding: 30px;
-    border-collapse: collapse;
-    font-weight: 600;
-    border: 2px solid #f47b3f;
-    box-shadow: 5px 5px 9px #000;
-}
 
-table, td, th { 
-    padding: 50px;
-    margin: auto;
-    font-size: 1.1em;
-    text-align: left;
-    
-   
-}
+
 
     /*-------------Form------------*/
 form fieldset{ 
