@@ -46,7 +46,7 @@
 .detailcolor {
     color: #f47b3f;
 }
-    
+    div video {width: 400px; height: auto;}  
 /*---------Table---------------*/
 .paidservice {
     margin-left: 2%;
