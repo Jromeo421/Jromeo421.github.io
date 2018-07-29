@@ -317,7 +317,17 @@ article {width: 100%;
     color: #f47b3f; 
 }
 
-.resources {margin: 10%; text-decoration-line: none;}
+#resources { 
+    font-size:  16px; 
+    font-weight: 600; 
+    text-align: left; 
+    line-height: 30px;  
+    margin:10%; padding: 4%;
+    border: 4px inset #715470; 
+    color: #f47b3f; 
+}
+
+#resources:hover {background-color: aliceblue;}
 .mainevent {padding: 2%;}
 /*--------------------Bike Details---------------*/
 article.bikedetail ul {
