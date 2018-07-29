@@ -9,7 +9,6 @@
             "service": "Tube Repair",
             "description": "Thorn Resistant Tube",
             "price": "$15 & Up",
-
         },
         {
             "service": "Tires",
@@ -24,113 +23,7 @@
         {
             "service": "Tire Labor",
             "description": "Tube or Tire Labor",
-            "price": "$5 / Each",
-        },
-        {
-            "service": "Standard Tube Purchase",
-            "description": "Tubes of any size",
-            "price": "$8 & Up",
-
-        },
-        {
-            "service": "Tube Repair",
-            "description": "Thorn Resistant Tube",
-            "price": "$15 & Up",
-        },
-        {
-            "service": "Tires",
-            "description": "Variaty of tires",
-            "price": "$9.95 & Up",
-        },
-        {
-            "service": "Installation",
-            "description": "Sline Installed",
-            "price": "2 / $10.00",
-        },
-        {
-            "service": "Tire Labor",
-            "description": "Tube or Tire Labor",
-            "price": "$5 / Each",
-        }, 
-        {
-            "service": "Standard Tube Purchase",
-            "description": "Tubes of any size",
-            "price": "$8 & Up",
-        },
-        {
-            "service": "Tube Repair",
-            "description": "Thorn Resistant Tube",
-            "price": "$15 & Up",
-        },
-        {
-            "service": "Tires",
-            "description": "Variaty of tires",
-            "price": "$9.95 & Up",
-        },
-        {
-            "service": "Installation",
-            "description": "Sline Installed",
-            "price": "2 / $10.00",
-        },
-        {
-            "service": "Tire Labor",
-            "description": "Tube or Tire Labor",
-            "price": "$5 / Each",
-        },
-        {
-            "service": "Standard Tube Purchase",
-            "description": "Tubes of any size",
-            "price": "$8 & Up",
-
-        },
-        {
-            "service": "Tube Repair",
-            "description": "Thorn Resistant Tube",
-            "price": "$15 & Up",
-
-        },
-        {
-            "service": "Tires",
-            "description": "Variaty of tires",
-            "price": "$9.95 & Up",
-
-        },
-        {
-            "service": "Installation",
-            "description": "Sline Installed",
-            "price": "2 / $10.00",
-        },
-        {
-            "service": "Tire Labor",
-            "description": "Tube or Tire Labor",
-            "price": "$5 / Each",
-
-        },
-        {
-            "service": "Standard Tube Purchase",
-            "description": "Tubes of any size",
-            "price": "$8 & Up",
-
-        },
-        {
-            "service": "Tube Repair",
-            "description": "Thorn Resistant Tube",
-            "price": "$15 & Up",
-        },
-        {
-            "service": "Tires",
-            "description": "Variaty of tires",
-            "price": "$9.95 & Up",
-        },
-        {
-            "service": "Installation",
-            "description": "Sline Installed",
-            "price": "2 / $10.00",
-        },
-        {
-            "service": "Tire Labor",
-            "description": "Tube or Tire Labor",
-            "price": "$5 / Each",
+            "price": "$5 / Each"
         }
     ]
 }
